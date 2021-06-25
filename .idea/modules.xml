@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../HHLTGCSplit/.idea/HHLTGC_SplitFile.iml" filepath="$PROJECT_DIR$/../HHLTGCSplit/.idea/HHLTGC_SplitFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LTGC_CtrlNumber_Err_Log.iml" filepath="$PROJECT_DIR$/.idea/LTGC_CtrlNumber_Err_Log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LTGC_Err_Log_V2/.idea/LTGC_Err_Log_V2.iml" filepath="$PROJECT_DIR$/../LTGC_Err_Log_V2/.idea/LTGC_Err_Log_V2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LTGCSplit/.idea/LTGSplitFile_From_Zuellig.iml" filepath="$PROJECT_DIR$/../LTGCSplit/.idea/LTGSplitFile_From_Zuellig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LTGValidateReservationFile_Python/.idea/LTGValidateReservationFile_Python.iml" filepath="$PROJECT_DIR$/../LTGValidateReservationFile_Python/.idea/LTGValidateReservationFile_Python.iml" />
+    </modules>
+  </component>
+</project>
