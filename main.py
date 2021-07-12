@@ -120,10 +120,12 @@ def getDataFromExcel(rp, masterFile):
                        na_filter=False)
 
     # Validate Control Number Format
-    df['Is Duplicate'] = df.duplicated(subset="Control Number", keep='first')
-    df['Is Valid Format'] = df.apply(lambda x: checkCtrlNumFormat(x['Control Number'],
+    df['Is Duplicate CtrlNumber'] = df.duplicated(subset="Control Number", keep='first')
+    df['Is Valid CtrlNumber Format'] = df.apply(lambda x: checkCtrlNumFormat(x['Control Number'],
                                                                   x['Company Name']), axis=1)
 
+    # Validate Email
+    df['']
     df['Employee Number'] = df['Control Number'].str.split('_').str[1]
 
     df = df[['ID', 'Employee Number', 'Control Number', 'Company Name', 'Is Duplicate', 'Is Valid Format']]
@@ -239,7 +241,7 @@ if __name__ == '__main__':
     print(" Running Control Number Validation Script... ")
     print("=============================================")
 
-    # getDataFromExcel(rootPath, HHExcelFileName)
+    getDataFromExcel(rootPath, HHExcelFileName)
 
     # Get all filenames in excelLogPath
     getErrLog(os.listdir(excelLogPath))
